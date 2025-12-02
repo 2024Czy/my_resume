@@ -144,126 +144,129 @@
             <div>
                 <h1>崔志毅</h1>
                 <h2>🚀 数据科学与大模型应用专家 | 驱动业务增长的算法策略家</h2>
+
             </div>
-            <div class="contact-info">
-                <a href="tel:15798009526">📞 15798009526</a>
-                <a href="mailto:2239029371@qq.com">📧 2239029371@qq.com</a>
-                <span>📍 西安 (2002/12/16)</span>
+
+            <div class="section">
+                <h3>🛠️ 核心技能栈 (Product Features)</h3>
+                <div class="skills-list">
+                    [cite_start]<span class="skill-badge">机器学习 (全流程)</span> [cite: 41]
+                    [cite_start]<span class="skill-badge">深度学习 (PyTorch, 图像/时序/文本)</span> [cite: 42]
+                    [cite_start]<span class="skill-badge">大模型应用 (RAG, LoRA, Prompt)</span> [cite: 43]
+                    [cite_start]<span class="skill-badge">XGBoost & 时序预测</span> [cite: 16, 29]
+                    [cite_start]<span class="skill-badge">SQL 数据库操作</span> [cite: 44]
+                    [cite_start]<span class="skill-badge">多模型异构集成</span> [cite: 37]
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>💼 实习经历 (High-Impact Case Studies)</h3>
+
+                <div class="experience-item">
+                    <div class="item-header">
+                        [cite_start]<span class="item-title">绝味食品 [cite: 14] - [cite_start]算法实习生 [cite: 15]</span>
+                        [cite_start]<span class="item-time">2025.02 - 2025.06 [cite: 13]</span>
+                    </div>
+                    [cite_start]<div class="item-role">智能选址预测与风险规避体系 (XGBoost + Optuna) [cite: 16]</div>
+                    <ul class="item-details">
+                        [cite_start]<li>**成果量化:** Top 80% 门店月销量 MAPE 达 **16.8%** [cite: 21][cite_start]，模型已服务于全国选址决策
+                            [cite:
+                            21]。</li>
+                        [cite_start]<li>**核心创新:** 实施**时序修正目标值**和**距离加权竞争特征**，精准拟合被瓜分后的稳定销量，有效规避销量高估风险 [cite: 17]。</li>
+                        [cite_start]<li>**风险规避:** 设计销量分段权重策略，显著提升**高风险选址点**的预测稳定性 [cite: 18]。</li>
+                        [cite_start]<li>**体系搭建:** 构建端到端预测体系：数据治理 → 多源特征融合 [cite: 19] [cite_start]→ 样本加权自动调参 [cite: 20] →
+                            K-fold 评估。</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="item-header">
+                        [cite_start]<span class="item-title">绝味食品 [cite: 14] - [cite_start]算法实习生 [cite: 15]</span>
+                        [cite_start]<span class="item-time">2025.02 - 2025.06 [cite: 13]</span>
+                    </div>
+                    [cite_start]<div class="item-role">门店经营小助手 (RAG + LoRA + Evaluator) [cite: 22]</div>
+                    <ul class="item-details">
+                        [cite_start]<li>**RAG 优化:** 利用 LangChain 搭建 RAG 原型，采用**递归分块和 A* 检索**，确保语义完整性和毫秒级效率 [cite: 23]。
+                        </li>
+                        [cite_start]<li>**微调应用:** 基于 LoRA 对 Wq、Wv 微调，习得标准化服务话术，同时通过 **Regex+NER+审计** 实现数据彻底脱敏 [cite:
+                            24]。
+                        </li>
+                        [cite_start]<li>**评测体系:** 构建裁判大模型评测体系，基于**[正确性 (50%)]、[完整性 (30%)]和[专业度 (20%)]**三大维度进行结构化打分
+                            [cite:
+                            25]。</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h3>💡 核心项目经历 (Technical Depth)</h3>
+
+                <div class="project-item">
+                    <div class="item-header">
+                        [cite_start]<span class="item-title">数学理解多模型集成 (Gemma/Qwen / Deepseek) [cite: 36]</span>
+                    </div>
+                    <ul class="item-details">
+                        [cite_start]<li>**成果量化:** 集成后 **MAP 达 0.948** [cite: 39][cite_start]，相比单模型有显著提升 (0.942-0.944)
+                            [cite:
+                            39][cite_start]，提高了长尾类稳定性 [cite: 37]。</li>
+                        [cite_start]<li>**集成策略:** 实施三模型异构集成，设计**概率融合 + 一致性投票 + 置信度奖励**策略 [cite: 37]。</li>
+                        [cite_start]<li>**工程优化:** 构建统一文本 Prompt、65 类标签编码、批处理推理及概率归一化，实现多 GPU 并行推理 [cite: 38]。</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <div class="item-header">
+                        [cite_start]<span class="item-title">Reddit 违规评论判别模型 (Qwen2-5B + LORA 微调) [cite: 32]</span>
+                    </div>
+                    <ul class="item-details">
+                        [cite_start]<li>**成果量化:** **AUC 0.886** [cite: 35][cite_start]，训练时长仅 **14min** [cite:
+                            35][cite_start]，**参数量减少 > 95%** [cite: 35]，体现强可复现性。</li>
+                        [cite_start]<li>**轻量化微调:** 构建 Qwen2-5B + LORA (rank=24, α=48) 轻量化微调体系，在双 T4 GPU 高效训练 [cite: 32]。
+                        </li>
+                        [cite_start]<li>**泛化能力:** 采用**平均 TTA 推理策略**，使用两类 Prompt 变体概率均值输出，提高泛化能力 [cite: 34]。</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <div class="item-header">
+                        [cite_start]<span class="item-title">多源数据门店日销量预测 [cite: 27]</span>
+                    </div>
+                    <ul class="item-details">
+                        [cite_start]<li>**创新模型:** 构建**动态加权模型 (XGBoost + ARIMA + Optuna)** [cite: 29] [cite_start]和
+                            **CEEMDAN
+                            分量建模** [cite: 30]，分解高低频序列，提高噪声抑制能力。</li>
+                        [cite_start]<li>**成果:** 动态加权模型 **MAPE ≈ 23.6%** [cite: 31][cite_start]，均优于单一基线模型 [cite: 31]。
+                        </li>
+                        [cite_start]<li>**数据工程:** 整合对齐企业销量数据+POI/人口数据+天气数据 [cite: 28][cite_start]，完成缺失值填补和特征编码 [cite:
+                            28]。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>🎓 教育背景 (Professional Foundation)</h3>
+                <div class="experience-item">
+                    <div class="item-header">
+                        [cite_start]<span class="item-title">西北工业大学 [cite: 8] (硕士 - 全日制) [cite_start][cite: 11]</span>
+                        [cite_start]<span class="item-time">2025.09 - 2028.07 [cite: 5]</span>
+                    </div>
+                    [cite_start]<div class="item-role">管理科学与工程 [cite: 9]</div>
+                </div>
+                <div class="experience-item">
+                    <div class="item-header">
+                        [cite_start]<span class="item-title">湖南大学 [cite: 8] (本科 - 全日制) [cite_start][cite: 11]</span>
+                        [cite_start]<span class="item-time">2021.09 - 2025.06 [cite: 7]</span>
+                    </div>
+                    [cite_start]<div class="item-role">信息管理与信息系统 [cite: 10]</div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px; color: #999; font-size: 0.85em;">
+                &copy; 2025 崔志毅 个人主页 | 数据驱动，持续迭代
             </div>
         </div>
-
-        <div class="section">
-            <h3>🛠️ 核心技能栈 (Product Features)</h3>
-            <div class="skills-list">
-                [cite_start]<span class="skill-badge">机器学习 (全流程)</span> [cite: 41]
-                [cite_start]<span class="skill-badge">深度学习 (PyTorch, 图像/时序/文本)</span> [cite: 42]
-                [cite_start]<span class="skill-badge">大模型应用 (RAG, LoRA, Prompt)</span> [cite: 43]
-                [cite_start]<span class="skill-badge">XGBoost & 时序预测</span> [cite: 16, 29]
-                [cite_start]<span class="skill-badge">SQL 数据库操作</span> [cite: 44]
-                [cite_start]<span class="skill-badge">多模型异构集成</span> [cite: 37]
-            </div>
-        </div>
-
-        <div class="section">
-            <h3>💼 实习经历 (High-Impact Case Studies)</h3>
-
-            <div class="experience-item">
-                <div class="item-header">
-                    [cite_start]<span class="item-title">绝味食品 [cite: 14] - [cite_start]算法实习生 [cite: 15]</span>
-                    [cite_start]<span class="item-time">2025.02 - 2025.06 [cite: 13]</span>
-                </div>
-                [cite_start]<div class="item-role">智能选址预测与风险规避体系 (XGBoost + Optuna) [cite: 16]</div>
-                <ul class="item-details">
-                    [cite_start]<li>**成果量化:** Top 80% 门店月销量 MAPE 达 **16.8%** [cite: 21][cite_start]，模型已服务于全国选址决策 [cite:
-                        21]。</li>
-                    [cite_start]<li>**核心创新:** 实施**时序修正目标值**和**距离加权竞争特征**，精准拟合被瓜分后的稳定销量，有效规避销量高估风险 [cite: 17]。</li>
-                    [cite_start]<li>**风险规避:** 设计销量分段权重策略，显著提升**高风险选址点**的预测稳定性 [cite: 18]。</li>
-                    [cite_start]<li>**体系搭建:** 构建端到端预测体系：数据治理 → 多源特征融合 [cite: 19] [cite_start]→ 样本加权自动调参 [cite: 20] →
-                        K-fold 评估。</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="item-header">
-                    [cite_start]<span class="item-title">绝味食品 [cite: 14] - [cite_start]算法实习生 [cite: 15]</span>
-                    [cite_start]<span class="item-time">2025.02 - 2025.06 [cite: 13]</span>
-                </div>
-                [cite_start]<div class="item-role">门店经营小助手 (RAG + LoRA + Evaluator) [cite: 22]</div>
-                <ul class="item-details">
-                    [cite_start]<li>**RAG 优化:** 利用 LangChain 搭建 RAG 原型，采用**递归分块和 A* 检索**，确保语义完整性和毫秒级效率 [cite: 23]。</li>
-                    [cite_start]<li>**微调应用:** 基于 LoRA 对 Wq、Wv 微调，习得标准化服务话术，同时通过 **Regex+NER+审计** 实现数据彻底脱敏 [cite: 24]。
-                    </li>
-                    [cite_start]<li>**评测体系:** 构建裁判大模型评测体系，基于**[正确性 (50%)]、[完整性 (30%)]和[专业度 (20%)]**三大维度进行结构化打分 [cite:
-                        25]。</li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="section">
-            <h3>💡 核心项目经历 (Technical Depth)</h3>
-
-            <div class="project-item">
-                <div class="item-header">
-                    [cite_start]<span class="item-title">数学理解多模型集成 (Gemma/Qwen / Deepseek) [cite: 36]</span>
-                </div>
-                <ul class="item-details">
-                    [cite_start]<li>**成果量化:** 集成后 **MAP 达 0.948** [cite: 39][cite_start]，相比单模型有显著提升 (0.942-0.944) [cite:
-                        39][cite_start]，提高了长尾类稳定性 [cite: 37]。</li>
-                    [cite_start]<li>**集成策略:** 实施三模型异构集成，设计**概率融合 + 一致性投票 + 置信度奖励**策略 [cite: 37]。</li>
-                    [cite_start]<li>**工程优化:** 构建统一文本 Prompt、65 类标签编码、批处理推理及概率归一化，实现多 GPU 并行推理 [cite: 38]。</li>
-                </ul>
-            </div>
-
-            <div class="project-item">
-                <div class="item-header">
-                    [cite_start]<span class="item-title">Reddit 违规评论判别模型 (Qwen2-5B + LORA 微调) [cite: 32]</span>
-                </div>
-                <ul class="item-details">
-                    [cite_start]<li>**成果量化:** **AUC 0.886** [cite: 35][cite_start]，训练时长仅 **14min** [cite:
-                        35][cite_start]，**参数量减少 > 95%** [cite: 35]，体现强可复现性。</li>
-                    [cite_start]<li>**轻量化微调:** 构建 Qwen2-5B + LORA (rank=24, α=48) 轻量化微调体系，在双 T4 GPU 高效训练 [cite: 32]。
-                    </li>
-                    [cite_start]<li>**泛化能力:** 采用**平均 TTA 推理策略**，使用两类 Prompt 变体概率均值输出，提高泛化能力 [cite: 34]。</li>
-                </ul>
-            </div>
-
-            <div class="project-item">
-                <div class="item-header">
-                    [cite_start]<span class="item-title">多源数据门店日销量预测 [cite: 27]</span>
-                </div>
-                <ul class="item-details">
-                    [cite_start]<li>**创新模型:** 构建**动态加权模型 (XGBoost + ARIMA + Optuna)** [cite: 29] [cite_start]和 **CEEMDAN
-                        分量建模** [cite: 30]，分解高低频序列，提高噪声抑制能力。</li>
-                    [cite_start]<li>**成果:** 动态加权模型 **MAPE ≈ 23.6%** [cite: 31][cite_start]，均优于单一基线模型 [cite: 31]。</li>
-                    [cite_start]<li>**数据工程:** 整合对齐企业销量数据+POI/人口数据+天气数据 [cite: 28][cite_start]，完成缺失值填补和特征编码 [cite: 28]。
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section">
-            <h3>🎓 教育背景 (Professional Foundation)</h3>
-            <div class="experience-item">
-                <div class="item-header">
-                    [cite_start]<span class="item-title">西北工业大学 [cite: 8] (硕士 - 全日制) [cite_start][cite: 11]</span>
-                    [cite_start]<span class="item-time">2025.09 - 2028.07 [cite: 5]</span>
-                </div>
-                [cite_start]<div class="item-role">管理科学与工程 [cite: 9]</div>
-            </div>
-            <div class="experience-item">
-                <div class="item-header">
-                    [cite_start]<span class="item-title">湖南大学 [cite: 8] (本科 - 全日制) [cite_start][cite: 11]</span>
-                    [cite_start]<span class="item-time">2021.09 - 2025.06 [cite: 7]</span>
-                </div>
-                [cite_start]<div class="item-role">信息管理与信息系统 [cite: 10]</div>
-            </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 30px; color: #999; font-size: 0.85em;">
-            &copy; 2025 崔志毅 个人主页 | 数据驱动，持续迭代
-        </div>
-    </div>
 
 </body>
 
